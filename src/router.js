@@ -39,8 +39,6 @@ router.get('/profile', async (req, res) => {
     }
     return res.status(404).json({ login: 'unsuccessful' })
 
-
-
 });
 
 
